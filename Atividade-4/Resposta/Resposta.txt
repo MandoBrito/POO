@@ -1,0 +1,18 @@
+1. Herança permite que uma subclasse ou classe derivada herde métodos e atributos comuns para reutilizar o código fonte para evitar duplicação de código.
+
+2. Superclasse é uma classe que define atributos e métodos comuns que estão presente nas subclasse, a subclasse é uma classe especifica que herda atributos e métodos da superclasse mas também tem seus próprios métodos e atributos. exemplo de uma superclasse Animal, sua subclasse seria, gato, cachorro, Arara etc...
+
+3. Podemos dizer que Pessoa e uma superclasse uma classe mais genérica e que Estudante é uma subclasse de Pessoa, ou seja todo estudante é uma Pessoa mas nem todas as Pessoas são estudantes.
+
+4. A herança permite que o código fonte seja reutilizado evitando assim uma repetição no código o código fica mais organizado facilitando a manutenção caso necessário.
+
+5. Seta com ponta de triangulo vazada na direção de baixo pra cima, ou seja da subclasse para a superclasse.
+
+6. Super é usado para acessar atributos e métodos da superclasse, exemplo super(nome), super.exibirDados
+
+7. Sim, na superclasse Professor tem atributos e métodos comuns a todos os professores.
+
+8. Transporte seria a superclasse, TransporteTerreste e TransporteAereo subclasses da superclasse Transporte, já carro seria subclasse da subclasse TransporteTerreste e Avião e Helicóptero são subclasse da subclasse TransporteAereo, a herança é importante nessa modelagem pelo fato de estarmos trabalhando com a superclasse Transporte que tem métodos e atributos em comum com as suas subclasses por exemplo (motor, ligar, velocidade, capacidade).
+
+9. O compilador não executa, pois precisa que o construtor acesse métodos e atributos da superclasse para que uma subclasse seja criada, pois não existe subclasse sem uma superclasse.   
+
